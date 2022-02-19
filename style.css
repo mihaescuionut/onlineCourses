@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Amita', cursive;
+    margin: 0;
+}
+
+body{
+    background-image:url('/images/alexander-silver-3d-art-gray-background-wallpapers-with-names-alexander-name-besthqwallpapers.com-1920x1080.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.hdr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(64, 3, 126, 0.6);
+    width: 100%;
+    color: rgba(242, 240, 110, 1);
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    color: rgba(242, 240, 110, 1);
+    background-color: rgba(64, 3, 126, 0.7);
+    padding: 10px;
+}
+
+
+.img1{
+    height: 80px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.img2{
+    height: 100px;
+
+}
+
+.img3{
+    height: 80px;
+}
+
+
+.img{
+    margin-bottom: 0;
+}
+
+
+.toCourse, .course-login{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: purple;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.toCourse:hover, .course-login:hover{
+
+    background-color: rgba(242, 240, 110, 0.9);
+  
+}
+
+.ftr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    background-color: rgba(64, 3, 126, 1);
+    color: rgba(242, 240, 110, 1);
+    height: 46px;
+    
+    
+}
+
+
+/* *****************************COURSE-SECTION********************** */
+
+
+
+.course-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(64, 3, 126, 0.7);
+    margin-top: 30px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: rgba(242, 240, 110, 1);
+    gap: 10px;
+    transition: all 1s;
+    padding-bottom: 15px;
+}
+
+.course-section h1{
+    font-size: 25px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.filters input{
+    width: 20px;
+    height: 10px;
+    
+}
+
+.enrol, .unsub{
+    margin-top: 10px;
+    color: purple;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.enrol:hover, .unsub:hover{
+
+    background-color: rgba(242, 240, 110, 0.9);
+  
+}
+
+
+
+/* ********************************LOGIN**************************** */
+
+
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+
+.logIn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(64, 3, 126, 0.9);
+    width: 90%;
+    border-radius: 10px;
+    height: 500px;
+    color: rgba(242, 240, 110, 1);
+
+    
+
+}
+
+
+.logIn input{
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.LogInBtn{
+    color: purple;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: solid 1px purple;
+}
+
+.LogInBtn:hover{
+    background-color: rgba(242, 240, 110, 0.9);
+}
+
+
+
+
+
+@media (min-width:740px){
+
+
+    .hdr{
+        font-size: 30px;
+    }
+
+
+    .ftr{
+        margin-top: 80px;
+    }
+
+    .course-section h1{
+        font-size: 35px;
+    }
+
+    .logIn{
+        font-size: 40px;
+    }
+}
+
